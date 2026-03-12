@@ -1,6 +1,6 @@
 services:
-  - type: static
+  - type: web
     name: bibles-for-kenya
     env: static
     buildCommand: ""
-    publishDir: "."
+    staticPublishPath: "."
